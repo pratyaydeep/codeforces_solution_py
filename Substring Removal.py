@@ -1,4 +1,4 @@
-danger=998244353  #as  I was not dividing by this number i got my solution wrong that is why i named it danger
+danger=998244353  #as  I was not taking mod by this number i got my solution wrong that is why i named it danger
 n=int(input())
 s=list(input())
 if len(s)==2:
