@@ -1,13 +1,13 @@
-danger=998244353
+danger=998244353  #as  I was not dividing by this number i got my solution wrong that is why i named it danger
 n=int(input())
 s=list(input())
 if len(s)==2:
 	print(3)
 else:
-	fs=s[0]
-	ls=s[-1]
-	fso=0
-	lso=0
+	fs=s[0] #first string
+	ls=s[-1] #last string
+	fso=0 #number of times the first string repeated,until another string then (fs) is found
+	lso=0 #number of times the last string repeated,until another string then (ls) is found
 	for i in s:
 		if i==fs:
 			fso+=1
